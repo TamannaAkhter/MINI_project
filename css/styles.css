@@ -1,0 +1,139 @@
+/*common css*/
+body{
+	margin:0;
+	font-family: 'Playfair Display', serif;
+	font-size:16px ;
+	font-weight: 400;
+	color:#626262 ;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding:25px 0;
+	/*border: 1px solid black;*/
+}
+.container{
+	margin: 0 auto;
+	width:90%;
+	/*border: 1px solid green;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 10px;
+	width:10%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+    /*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+  float:left ;
+  list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+    margin: 0 60px;
+    color: #626262;
+	text-decoration: none;
+	text-transform:uppercase;
+    border-bottom: 1px solid  transparent ;
+    transition: .33s;
+}
+.menu ul li :hover{
+	border-bottom: 1px solid  #626262 ;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+
+/*weekend start*/
+.weekend{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border:1px solid black;*/
+	overflow: hidden;
+}
+.w_content{
+
+}
+.c_tag{
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.c_text{
+	line-height:24px ;
+}
+.mb_45{
+	margin-bottom: 45px;
+}
+/*weekend end*/
+
+/*blog start*/
+.blog{
+	padding:0 0 80px;
+}
+.s_blog{
+	margin-top: 80px;
+	width:47%;
+	/*border: 1px solid pink;*/
+	box-sizing: border-box;
+	float:left;
+}
+.s_blog:nth-child(even){
+    margin-left:6% ;
+}
+.s_img{
+	margin-bottom:20px: ;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog start*/
+/*news start*/
+.news{
+	background-color:#f0f0f0 ;
+	min-height: 400px;
+}
+.signup{}
+.s_h1{}
+.s_form{}
+.s_form input{}
+.s_form button{}
+.s_form button img{}
+
+/*news end*/
+/*load more start*/
+.container3{
+	text-align: center;
+}
+
+/*load more end*/
